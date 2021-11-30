@@ -1,4 +1,5 @@
 
+# extends
 ## 示例
 ```
 interface IdLabel {
@@ -48,4 +49,14 @@ type StrArrOrNumArr = ToArrayNonDist<string | number>;//type StrArrOrNumArr = (s
 ```
 type ToArrayNonDist<Type> = Type extends any ? Type[] : never;
 type StrArrOrNumArr = ToArrayNonDist<string | number>;//type StrArrOrNumArr = string[] | number[]
+```
+# infer
+```
+type R = { a: number }
+
+type MyType<T> = T extends infer R ? R : never; // infer R from T
+type MyType2<T> = T extends R ? R : never; // compare T with R
+
+type T1 = MyType<{b: string}> // T1 is { b: string; }
+type T2 = MyType2<{b: string}> // T2 is never
 ```
