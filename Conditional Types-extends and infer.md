@@ -35,6 +35,7 @@ type T0 = Exclude<"a" | "b" | "c", "a">;//type T0 = "b" | "c"
 ```
 [https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types](url)
 > When conditional types act on a generic type, they become *distributive* when given a union type
+
 Exclude<'a' | 'b' | 'c', 'a'> 会被拆分为 'a' extends 'a'、'b' extends 'a'、'c' extends 'a'
 #### Avoid distributivity
 
