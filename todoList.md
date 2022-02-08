@@ -4,4 +4,5 @@
 - [ ] [翻译流程了解](https://github.com/yued-fe/y-translation/blob/master/doc/%E7%BF%BB%E8%AF%91%E6%B5%81%E7%A8%8B.md)
 - [ ] [leetcode](leetcode-cn.com)
 - [ ] [imooc好多课没刷](imooc.com)
+- [ ] [Midway+Serveless](https://midwayjs.org/docs/intro)
 - [ ] [抱着板子画呀！快去]
