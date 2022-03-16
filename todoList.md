@@ -8,6 +8,7 @@
 - [ ] [【JavaScript】【对象】创建对象、对象继承的实用方式及理解](https://segmentfault.com/a/1190000004559437)
 - [ ] [B站前端小野森森-1](https://www.bilibili.com/space/378372969?from=video) 1.vue3.0一站式学习
 - [ ] [babel入门](https://zhuanlan.zhihu.com/p/72995336)
+- [ ] [关于博客搭建-前端技术相关](https://github.com/mqyqingfeng/Blog)
 - [ ] [理财-指数投资估值](https://how2j.cn/frontindice)
 - [ ] [鸳鸯六七四]
 - [ ] [抱着板子画呀！快去]
