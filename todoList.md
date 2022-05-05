@@ -12,4 +12,5 @@
 - [ ] [CSAPP](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/)  [Bomb lab](https://earthaa.github.io/2020/01/12/CSAPP-Bomblab/#more)
 - [ ] [理财-指数投资估值](https://how2j.cn/frontindice)
 - [ ] [鸳鸯六七四]
+- [ ] [程序员的自我修养]
 - [ ] [抱着板子画呀！快去]
