@@ -1,4 +1,4 @@
-- [ ] [webpack性能优化](https://github.com/yued-fe/y-translation/blob/master/en/Web-Performance-Optimization-with-webpack/Introduction.md)
+- [ ] [OS小文](https://zhuanlan.zhihu.com/p/37810839)
 - [ ] [每日一刷-en](https://github.com/yued-fe/y-translation/blob/master/doc/websiteMap.md)
 - [ ] [前端收集-每日一刷cn](https://github.com/foru17/front-end-collect)
 - [ ] [翻译流程了解](https://github.com/yued-fe/y-translation/blob/master/doc/%E7%BF%BB%E8%AF%91%E6%B5%81%E7%A8%8B.md)
