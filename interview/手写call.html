@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Call</title>
+</head>
+<body>
+
+  <script>
+    Function.prototype.myCall = function() {
+        const args  = Array.prototype.slice.call(arguments)
+
+        //this 的值
+        const t = args.shift()
+        const self = this
+        t.fn = self
+        const res = t.fn(...args)
+        delete t.fn
+        return res
+    }
+
+    function fn(a, b) {
+        console.log('a', a)
+        console.log('b', b)
+        console.log('this', this)
+        return 'hello'
+    }
+    const res1 = fn.call({x:20}, 20, 30)
+    const res2 = fn.myCall({x:20}, 20, 30)
+    console.log('res1', res1)
+  </script>
+
+</body>
+</html>
