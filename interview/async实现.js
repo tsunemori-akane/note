@@ -1,3 +1,5 @@
+// 请参考co库的实现
+
 const {readFile} = require('fs/promises')
 const path = require('path')
 const classFile = path.join(__dirname,"name.txt")
