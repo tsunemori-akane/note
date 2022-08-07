@@ -1,2 +1,3 @@
 - [template转换为AST树](https://github.com/zwStar/vue-ast)
 - [vue2分析大合集](https://vue3js.cn/interview/)
+- [双向绑定](https://segmentfault.com/a/1190000017969385)
