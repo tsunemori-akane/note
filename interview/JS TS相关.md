@@ -32,3 +32,8 @@ person1.__proto__ === person1.constructor.prototype //returns "true"
 - **it’s not person one that has access to the prototype property of Person, but rather, it’s constructor (function).**
 - person1.hasOwnProperty(‘prototype’) // returns false
 - person1.constructor.hasOwnProperty(‘prototype’) // returns true
+
+
+## 3.事件循环
+- [1](https://blog.51cto.com/u_15175507/2723567)
+- [2](https://segmentfault.com/a/1190000017204460)
